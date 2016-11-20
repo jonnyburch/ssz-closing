@@ -7,3 +7,13 @@
 	font-weight: 700;
 
 }
+
+
+.cover {
+	margin-bottom: 20px;
+}
+
+.cover .cover_img {
+	min-height: 200px;
+	width: 100%;
+}
