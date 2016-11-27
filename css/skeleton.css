@@ -124,7 +124,7 @@ body {
   line-height: 1.7;
   font-weight: 400;
   font-family: 'Quattrocento Sans', sans-serif;
-  color: #333; 
+  color: #222222; 
   background-color: #fefefe;
 }
 
@@ -139,10 +139,10 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
-    font-family: 'Bungee Shade', cursive;
+    font-family: 'Concert One', cursive;
     margin-bottom: 2rem;
     font-weight: 300; 
-    color: #ff3366;
+    color: #222222;
   }
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 2.6rem; line-height: 1.25; letter-spacing: -.1rem; }
@@ -168,9 +168,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #ff3366; }
+  color: #555; }
 a:hover {
-  color: #ff9977; }
+  color: #333; }
 
 
 /* Buttons
