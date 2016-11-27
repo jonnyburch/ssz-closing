@@ -35,7 +35,7 @@ a.btn {
 
 .margin-80 {margin: 40px 0;}
 .padding-80 {padding: 40px 0;}
-
+.no-bottom-margin {margin-bottom: 0}
 
 
 
@@ -50,16 +50,38 @@ a.btn {
 	margin-bottom: 20px;
 }
 
-.cover .cover_img {
+img.cover_img {
 	min-height: 200px;
 	width: 100%;
 }
 
 .mag {
 	width: 100%;
-	padding-bottom: 40%;
+	padding-bottom: 30%;
 }
 
+.blurb {
+	padding: 10px;
+	background-color: #222;
+	color: white;
+}
+
+.blurb h3 {
+	color: white;
+}
+
+.blurb p {
+	font-size: 14px;
+}
+
+.blurb .btn {
+	background-color: white;
+	color: #222;
+}
+
+.blurb h3, .blurb p, .blurb ul {
+	margin-bottom: 5px;
+}
 // bigger than phablet
 
 @media (min-width: 550px) {
