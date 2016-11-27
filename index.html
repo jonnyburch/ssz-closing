@@ -23,6 +23,14 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -32,6 +40,11 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="header">
+    <img src="img/sszlogo.svg" alt="" class="sszlogo">
+  </div>
+
+
   <div class="container">
     <div class="row margin-80">
       <div class="ten offset-by-one columns">
@@ -76,43 +89,50 @@
 
         <div class="row">
 
-        <div class="four columns u-max-full-width">
-          <a href="https://issuu.com/shellsuitzombie/docs/ssz_issue1_issuu" class="btn">
-            <img src="http://placekitten.com/g/400/600" class="cover_img">  
-            <p>Issue 1</p>
-          </a>
+          <div class="four columns u-max-full-width">
+            <a href="https://issuu.com/shellsuitzombie/docs/ssz_issue1_issuu" class="btn">
+              <img src="http://placekitten.com/g/400/600" class="cover_img">  
+              <p>Issue 1</p>
+            </a>
+          </div>
+          <div class="four columns u-max-full-width">
+            <a href="https://issuu.com/shellsuitzombie/docs/shellsuitzombie_issue_2" class="btn">
+              <img src="http://placekitten.com/g/400/600" class="cover_img">  
+              <p>Issue 2</p>
+            </a>
+          </div>
+          <div class="four columns u-max-full-width">
+            <a href="https://issuu.com/shellsuitzombie/docs/shellsuitzombie_issue_3" class="btn">
+              <img src="http://placekitten.com/g/400/600" class="cover_img">  
+              <p>Issue 3</p>
+            </a>
+          </div>
         </div>
-        <div class="four columns u-max-full-width">
-          <a href="https://issuu.com/shellsuitzombie/docs/shellsuitzombie_issue_2" class="btn">
-            <img src="http://placekitten.com/g/400/600" class="cover_img">  
-            <p>Issue 2</p>
-          </a>
+        <div class="row">
+          <div class="four columns u-max-full-width">
+            <a href="https://issuu.com/shellsuitzombie/docs/ssz4_final3" class="btn">
+              <img src="http://placekitten.com/g/400/600" class="cover_img">  
+              <p>Issue 4</p>
+            </a>
+          </div>
+          <div class="four columns u-max-full-width">
+            <a href="https://issuu.com/shellsuitzombie/docs/ssz5_final_final_noreallynow_final_" class="btn">
+              <img src="http://placekitten.com/g/400/600" class="cover_img">  
+              <p>Issue 5</p>
+            </a>
+          </div>
+          <div class="four columns u-max-full-width">        
+            <a href="https://issuu.com/shellsuitzombie/docs/ssz6_forissuu?e=5334523/41216000" class="btn">
+              <img src="http://placekitten.com/g/400/600" class="cover_img">  
+              <p>Issue 6</p>
+            </a>
+          </div>
         </div>
-        <div class="four columns u-max-full-width">
-          <a href="https://issuu.com/shellsuitzombie/docs/shellsuitzombie_issue_3" class="btn">
-            <img src="http://placekitten.com/g/400/600" class="cover_img">  
-            <p>Issue 3</p>
-          </a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="four columns u-max-full-width">
-          <a href="https://issuu.com/shellsuitzombie/docs/ssz4_final3" class="btn">
-            <img src="http://placekitten.com/g/400/600" class="cover_img">  
-            <p>Issue 4</p>
-          </a>
-        </div>
-        <div class="four columns u-max-full-width">
-          <a href="https://issuu.com/shellsuitzombie/docs/ssz5_final_final_noreallynow_final_" class="btn">
-            <img src="http://placekitten.com/g/400/600" class="cover_img">  
-            <p>Issue 5</p>
-          </a>
-        </div>
-        <div class="four columns u-max-full-width">        
-          <a href="http://six.shellsuitzombie.co.uk/" class="btn">
-            <img src="http://placekitten.com/g/400/600" class="cover_img">  
-            <p>Issue 6</p>
-          </a>
+        <div class="row">
+          <div class="twelve columns">
+            <div data-configid="5334523/41216000" style="width:800px; height:800px;" class="issuuembed"></div>
+            <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+          </div>
         </div>
       </div>
     </div>
@@ -129,5 +149,20 @@
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <script src="js/jquery.backstretch.min.js"></script>
+  <script>
+        $(".header").backstretch([
+          "img/ssz1.jpg",
+          "img/ssz2.jpg",
+          "img/ssz3.jpg",
+          "img/ssz4.jpg",
+          "img/ssz5.jpg"
+        ], {
+            fade: 750,
+            duration: 5000
+        });
+    </script>
+
 </body>
 </html>
