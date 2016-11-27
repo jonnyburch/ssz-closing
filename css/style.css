@@ -24,7 +24,6 @@
 
 }
 
-
 .cover {
 	margin-bottom: 20px;
 }
@@ -33,3 +32,33 @@
 	min-height: 200px;
 	width: 100%;
 }
+
+.mag {
+	width: 100%;
+	height: 300px;
+
+}
+
+// bigger than phablet
+
+@media (min-width: 550px) {
+	.mag {height: 500px;}
+}
+
+
+// Videos
+
+// .videoWrapper {
+// 	position: relative;
+// 	padding-bottom: 56.25%; /* 16:9 */
+// 	padding-top: 25px;
+// 	height: 0;
+// }
+// .videoWrapper object,
+// .videoWrapper embed,  {
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	width: 100%;
+// 	height: 100%;
+// }

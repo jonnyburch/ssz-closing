@@ -23,18 +23,14 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <!-- JS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-  
-
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/jquery.backstretch.min.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
+  <script src="js/scripts.js"></script>
 </head>
 <body>
 
@@ -51,7 +47,7 @@
     		<h2>Goodbye, ShellsuitZombie</h2>
         <br>
         <br>
-        <a href="#bye">GOODBYE</a>  |  <a href="mags">MAGAZINES</a>  |  <a href="pix">PICS</a>  |  <a href="vids">VIDS</a>  |  <a href="thx">THX</a>
+        <a href="#bye">GOODBYE</a>  |  <a href="#mags">MAGAZINES</a>  |  <a href="#pix">PICS</a>  |  <a href="#vids">VIDS</a>  |  <a href="#thx">THX</a>
         <br>
         <hr>
         <br>
@@ -139,30 +135,33 @@
     <div class="row">
       <div class="ten offset-by-one columns">
         <p id="pix"><b>Some Pics:</b></p>
-        <img src="img/ssz1.jpg" class="u-max-full-width" alt="Issue 6">
-        <img src="img/ssz2.jpg" class="u-max-full-width" alt="Issue 6">
-        <img src="img/ssz3.jpg" class="u-max-full-width" alt="Issue 6">
-        <img src="img/ssz4.jpg" class="u-max-full-width" alt="Issue 6">
-        <img src="img/ssz5.jpg" class="u-max-full-width" alt="Issue 6">
+        <iframe src="https://player.vimeo.com/video/82980736" width="400" height="225" frameborder="0"></iframe>
+        <div class="mag"></div>
       </div>
   </div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-    <script src="js/jquery.backstretch.min.js"></script>
-  <script>
-        $(".header").backstretch([
-          "img/ssz1.jpg",
-          "img/ssz2.jpg",
-          "img/ssz3.jpg",
-          "img/ssz4.jpg",
-          "img/ssz5.jpg"
-        ], {
-            fade: 750,
-            duration: 5000
-        });
-    </script>
+<script>
+  $(".header").backstretch([
+    "img/fun1.jpg",
+    "img/fun2.jpg"
+  ], {
+      fade: 750,
+      duration: 7000
+  });
+  $(".mag").backstretch([
+    "img/ssz1.jpg",
+    "img/ssz2.jpg",
+    "img/ssz3.jpg",
+    "img/ssz4.jpg",
+    "img/ssz5.jpg"
+  ], {
+      fade: 750,
+      duration: 5000
+  });
+</script>
 
 </body>
 </html>
