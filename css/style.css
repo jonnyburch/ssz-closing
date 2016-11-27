@@ -70,8 +70,8 @@ img.cover_img {
 	color: white;
 }
 
-.blurb p {
-	font-size: 14px;
+p.blurbtext {
+	font-size: 13px;
 }
 
 .blurb .btn {
@@ -79,29 +79,24 @@ img.cover_img {
 	color: #222;
 }
 
-.blurb h3, .blurb p, .blurb ul {
+.blurb h3, .blurb p, p.blurbtext {
+	margin-bottom: 10px;
+}
+
+.blurb ul {
 	margin-bottom: 5px;
 }
+
+#vids {
+	background-color: #222;
+}
+
+.video {
+	margin-bottom:30px;
+}
+
 // bigger than phablet
 
 @media (min-width: 550px) {
 	.mag {height: 500px;}
 }
-
-
-// Videos
-
-// .videoWrapper {
-// 	position: relative;
-// 	padding-bottom: 56.25%; /* 16:9 */
-// 	padding-top: 25px;
-// 	height: 0;
-// }
-// .videoWrapper object,
-// .videoWrapper embed,  {
-// 	position: absolute;
-// 	top: 0;
-// 	left: 0;
-// 	width: 100%;
-// 	height: 100%;
-// }

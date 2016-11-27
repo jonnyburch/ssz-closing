@@ -7,8 +7,8 @@ $(document).ready(function(){
 
 // Scroll to
 
-$(".scroll").click(function() {
+$("#magsbtn").click(function() {
     $('html, body').animate({
-        scrollTop: $("#elementtoScrollToID").offset().top
+        scrollTop: $("#mags").offset().top
     }, 2000);
 });
