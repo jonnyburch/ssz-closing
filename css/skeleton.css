@@ -123,7 +123,7 @@ body {
   font-size: 1.1em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.7;
   font-weight: 400;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #222222; 
   background-color: #fefefe;
 }
@@ -139,7 +139,7 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
-    font-family: 'Concert One', cursive;
+    font-family: 'Concert One', sans-serif;
     margin-bottom: 2rem;
     font-weight: 300; 
     color: #222222;
@@ -164,6 +164,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 p {
   margin-top: 0; }
 
+b {font-weight: 700;}
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
