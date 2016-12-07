@@ -1,4 +1,42 @@
-.margin-80 {margin: 80px 0;}
+.header {
+	width: 100%;
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+}
+
+.header .sszlogo {
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 200px;
+	z-index: 10;
+}
+
+
+ul.topbuttons {
+
+}
+
+ul.topbuttons li {
+	list-style-type: none;
+	padding-left: 0;
+	display: inline;
+}
+
+a.btn {
+	padding: 5px 8px;
+	background-color: #222;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+
+.margin-80 {margin: 40px 0;}
+.padding-80 {padding: 40px 0;}
+.no-bottom-margin {margin-bottom: 0}
+
 
 
 .h3 {
@@ -6,4 +44,59 @@
 	font-size: 3em;
 	font-weight: 700;
 
+}
+
+.cover {
+	margin-bottom: 20px;
+}
+
+img.cover_img {
+	min-height: 200px;
+	width: 100%;
+}
+
+.mag {
+	width: 100%;
+	padding-bottom: 30%;
+}
+
+.blurb {
+	padding: 10px;
+	background-color: #222;
+	color: white;
+}
+
+.blurb h3 {
+	color: white;
+}
+
+p.blurbtext {
+	font-size: 13px;
+}
+
+.blurb .btn {
+	background-color: white;
+	color: #222;
+}
+
+.blurb h3, .blurb p, p.blurbtext {
+	margin-bottom: 10px;
+}
+
+.blurb ul {
+	margin-bottom: 5px;
+}
+
+#vids {
+	background-color: #222;
+}
+
+.video {
+	margin-bottom:30px;
+}
+
+// bigger than phablet
+
+@media (min-width: 550px) {
+	.mag {height: 500px;}
 }
