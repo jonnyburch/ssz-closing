@@ -32,10 +32,16 @@ a.btn {
 	font-size: 14px;
 }
 
+a.active {
+	background-color: #6397e5;
+}
+
 
 .margin-80 {margin: 40px 0;}
 .padding-80 {padding: 40px 0;}
 .no-bottom-margin {margin-bottom: 0}
+.margin-bottom-80 {margin: 0 0 80px;}
+
 
 
 
@@ -55,6 +61,12 @@ img.cover_img {
 	width: 100%;
 }
 
+.image-holder {
+	width: 100%;
+	min-height:500px;
+	margin-bottom: 40px
+}
+
 .mag {
 	width: 100%;
 	padding-bottom: 30%;
@@ -66,7 +78,17 @@ img.cover_img {
 	color: white;
 }
 
-.blurb h3 {
+.dark {
+	background-color: #222;
+	color: white;
+}
+
+.light .caption {
+	background-color: #222;
+	color: white;
+}
+
+.blurb h3, .dark h3 {
 	color: white;
 }
 
@@ -74,17 +96,24 @@ p.blurbtext {
 	font-size: 13px;
 }
 
-.blurb .btn {
-	background-color: white;
-	color: #222;
-}
-
 .blurb h3, .blurb p, p.blurbtext {
 	margin-bottom: 10px;
 }
 
+.caption {
+	font-size: 14px;
+	background-color: white;
+	color: #222;
+	padding: 5px 8px;
+}
+
 .blurb ul {
 	margin-bottom: 5px;
+}
+
+.blurb .btn, .dark .btn {
+	background-color: white;
+	color: #222;
 }
 
 #vids {
@@ -93,6 +122,20 @@ p.blurbtext {
 
 .video {
 	margin-bottom:30px;
+}
+
+
+.footer {
+	background-color: #6397e5;
+	min-height: 100px;
+}
+
+.footer .container {
+	padding: 40px 0;
+}
+
+.white, .white a {
+	color: white;
 }
 
 // bigger than phablet
